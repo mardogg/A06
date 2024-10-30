@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #800000;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 170%;
+    color: #800000;
+    text-indent: 30px;
+}
+
+h3 {
+    font-size: 130%;
+    font-style: italic;
+    text-indent: 30px;
+}
+
+/* Text Shadow */
+.shadow {
+    text-shadow: 2px 2px #800000;
+}
+
+/* Links and Footer */
+a:hover, a:focus {
+    font-style: italic;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* CSS Variable */
+:root {
+    --global-color-1: #800000;
+}
+
+/* Applying Variable */
+h1 {
+    color: var(--global-color-1);
+}
+
+/* Temporary variable change (update and revert for testing) */
+/* Uncomment the following line to test the new color, then comment it back out when done */
+/* --global-color-1: #4d0080; */
